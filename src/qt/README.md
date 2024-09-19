@@ -1,4 +1,4 @@
-This directory contains the LitecoinQT graphical user interface (GUI). It uses the cross-platform framework [Qt](https://www1.qt.io/developers/).
+This directory contains the BitcoilQT graphical user interface (GUI). It uses the cross-platform framework [Qt](https://www1.qt.io/developers/).
 
 The current precise version for Qt 5 is specified in [qt.mk](/depends/packages/qt.mk).
 
@@ -9,7 +9,7 @@ See build instructions ([macOS](/doc/build-osx.md), [Windows](/doc/build-windows
 To run:
 
 ```sh
-./src/qt/litecoin-qt
+./src/qt/bitcoil-qt
 ```
 
 ## Files and directories
@@ -32,7 +32,7 @@ Tests.
 
 ### bitcoingui.(h/cpp)
 
-Represents the main window of the Litecoin UI.
+Represents the main window of the Bitcoil UI.
 
 ### \*model.(h/cpp)
 
@@ -50,7 +50,7 @@ Various dialogs, e.g. to open a URL. Inherit from [QDialog](https://doc.qt.io/qt
 
 ### paymentserver.(h/cpp)
 
-Used to process BIP21 payment URI requests. Also handles URI based application switching (e.g. when following a litecoin:... link from a browser).
+Used to process BIP21 payment URI requests. Also handles URI based application switching (e.g. when following a bitcoil:... link from a browser).
 
 ### walletview.(h/cpp)
 
