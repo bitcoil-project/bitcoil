@@ -79,7 +79,7 @@ static const std::array<uint8_t, 12> IPV4_IN_IPV6_PREFIX{
 /// Such dummy IPv6 addresses are guaranteed to not be publicly routable as they
 /// fall under RFC4193's fc00::/7 subnet allocated to unique-local addresses.
 static const std::array<uint8_t, 6> TORV2_IN_IPV6_PREFIX{
-    0xFD, 0x87, 0xD8, 0x7E, 0xEB, 0x43
+    0xFD, 0x86, 0xD9, 0x7E, 0xEC, 0x54
 };
 
 /// Prefix of an IPv6 address when it contains an embedded "internal" address.
@@ -88,7 +88,7 @@ static const std::array<uint8_t, 6> TORV2_IN_IPV6_PREFIX{
 /// Such dummy IPv6 addresses are guaranteed to not be publicly routable as they
 /// fall under RFC4193's fc00::/7 subnet allocated to unique-local addresses.
 static const std::array<uint8_t, 6> INTERNAL_IN_IPV6_PREFIX{
-    0xFD, 0x6C, 0xE9, 0xFE, 0x45, 0x49 // 0xFD + sha256("litecoin")[0:5].
+    0xFD, 0x6C, 0xE8, 0x6E, 0xE5, 0x47 // 0xFD + sha256("bitcoil")[0:5].
 };
 
 /// Size of IPv4 address (in bytes).
